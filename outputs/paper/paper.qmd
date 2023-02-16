@@ -33,13 +33,12 @@ Look at this sick pic in @fig-nasa
 ```{r}
 #| label: fig-nasa
 #| fig-cap: "best birthday pic"
+#| echo: 
 library(knitr)
 library(here)
 
 include_graphics(here::here("inputs/NASA_APOD_20030309.jpg"))
 ```
-
-![sa](images/NASA_APOD_20030309.jpg)
 
 Our data is of penguins (@fig-bills).
 
