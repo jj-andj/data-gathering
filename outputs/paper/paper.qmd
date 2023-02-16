@@ -34,6 +34,7 @@ Look at this sick pic in @fig-nasa
 #| label: fig-nasa
 #| fig-cap: "best birthday pic"
 #| echo: false
+#| message: false
 library(knitr)
 library(here)
 
